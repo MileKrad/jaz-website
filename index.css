@@ -1,7 +1,52 @@
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: local('Poppins-Regular');
+}
+
+body {
+    font-family: 'Poppins-Regular', sans-serif;
+}
+
+#event-section {
+    background: url('./Images/Background.png');
+    height: 60vh;
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+#event-section .overlay {
+    background-color: rgba(234, 234, 234, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#description-section {
+    font-size: 1rem;
+}
+
+#more-info-section .info-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#more-info-section .info-box img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#more-info-section .info-box p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+#more-info-section .info-box a {
+    font-size: 1.5rem;
+}
+
 a{
     text-decoration: none;
-}
-.btn-group{
+    }
+    .btn-group{
     position: absolute;
     top: 10%;
     left: 80%;
@@ -12,22 +57,22 @@ a{
     font-size: 20px;
     text-align: center;
     border: none;
-}
-.col-6 {
+    }
+    .col-6 {
     height: 200px;
-}
-.row {
+    }
+    .row {
     height: 100px;
-}
-.container{
+    }
+    .container{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-#zjtimg{
+    }
+    #zjtimg{
     height: 150px;
-}
-#zjt{
+    }
+    #zjt{
     background-color: #DF3635;
     height: 200px;
     display: flex;
@@ -37,13 +82,13 @@ a{
     border-color: white;
     border-width: 5px;
     border-left: 0px;
-}
- 
-#induimg{
+    }
+    
+    #induimg{
     width: 340px;
     height: 75px;
-}
-#indu{
+    }
+    #indu{
     background-color: #F26BFF;
     height: 100px;
     display: flex;
@@ -53,13 +98,13 @@ a{
     border-color: white;
     border-width: 5px;
     border-right: 0px;
-}
- 
-#jazimg{
+    }
+    
+    #jazimg{
     width: 157px;
     height: 75px;
-}
-#jaz{
+    }
+    #jaz{
     background-color: #8FDAEE;
     height: 100px;
     display: flex;
@@ -70,15 +115,15 @@ a{
     border-width: 5px;
     border-top: 2.5px;
     border-right: 0px;
-}
-.nachsterevent{
+    }
+    .nachsterevent{
     display: flex;
     justify-content: center;
     align-items: center;
     align-self: center;
     background-image: url(banner\ background.jpg);
-}
-.grey{
+    }
+    .grey{
     background-color: rgba(232, 232, 217, 0.75);
     width: 40%;
     display: grid;
@@ -87,19 +132,19 @@ a{
     justify-content: center;
     text-align: center;
     border-radius: 30px;
-}
-.btn-primary{
+    }
+    .btn-primary{
     background-color: #DF3635;
     border: none;
-}
-.taten{
+    }
+    .taten{
     text-align: center;
     display: grid;
     width: 70%;
-}
-h2{
+    }
+    h2{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-}
+    }
