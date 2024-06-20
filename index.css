@@ -171,6 +171,31 @@ footer {
     height: auto;
 }
 
+
+
 h3 {
  text-align: center;
+ padding: 0 15px;
 }
+
+#left {
+    text-align: left;
+    }
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 15px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 20px; 
+    padding: 0 15px;
+}
+
+h4 {
+   
+    padding: 0 15px;
+}
+
