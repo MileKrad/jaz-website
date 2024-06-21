@@ -8,7 +8,7 @@ body {
 }
 
 #event-section {
-    background: url('Group.png');
+    background: url('/Bilder/Group.png');
     height: 60vh;
     position: relative;
     color: rgb(0, 0, 0);
@@ -29,8 +29,8 @@ body {
 #more-info-section .info-box {
     text-align: center;
     margin-bottom: 20px;
-    width: 100px;  /* replace with the width of Group (1).png */
-    height: 100px; /* replace with the height of Group (1).png */
+    width: 100px; 
+    height: 100px; 
     object-fit: cover;
 }
 
@@ -74,7 +74,9 @@ align-items: center;
 justify-content: center;
 }
 #zjtimg{
-height: 150px;
+    max-height: 100%;
+    max-width: 100%;
+    cursor: pointer;
 }
 #zjt{
 background-color: #DF3635;
@@ -88,8 +90,9 @@ width: 100%;
 }
 
 #induimg{
-width: 340px;
-height: 75px;
+    max-height: 100%;
+    max-width: 100%;
+    cursor: pointer;
 }
 #indu{
 background-color: #F26BFF;
@@ -103,10 +106,6 @@ width: 100%;
 
 
 
-header {
-    max-width: 1200px; /* Adjust this value to your preference */
-    margin: 0 auto; /* Centers the header */
-}
 
 
 /*
@@ -117,8 +116,9 @@ width: 100%;
 */
 
 #jazimg{
-width: 157px;
-height: 75px;
+    max-height: 100%;
+    max-width: 100%;
+    cursor: pointer;
 }
 
 #jaz{
@@ -228,12 +228,14 @@ h1 {
 }  
 
 #contact-form button {
-    padding: 5px 10px;
+    padding:5px 10px;
     background-color: white;
     border: 2px solid black;
     cursor: pointer;
     color: rgb(0, 0, 0);
     border-radius: 10px;
+    width: 90%;
+    
 }
 .footer {
     width: 100%;
@@ -266,4 +268,13 @@ h1 {
 }
 .footer-bottom a {
     color: black;
+}
+
+.form-group {
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 100%;
+
 }

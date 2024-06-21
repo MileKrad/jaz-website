@@ -31,30 +31,30 @@
 <body>
   <br>
   <h1>Werde Mitglied</h1>
-  
   <form id="contact-form">
-      <label for="name">Your Name</label>
-      <input type="text" id="name" name="name" placeholder="Enter your name">
-      <br>
-  
-      <label for="email">Your Email</label>
-      <input type="text" id="name" name="name" placeholder="Enter your email">
-      <br>
-  
-  
-      <label for="regarding">Regarding Jazz</label>
-      <input type="text" id="name" name="name" placeholder="Enter your subjekt">
-      <br>
-  
-  
-      <label for="message">Your Message</label>
-      <input type="text" id="name" name="name" placeholder="Your message here">
-      <br>
-  
-  
-      <button type="submit">Send</button>
+    <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name">
+    </div>
 
-  </form>
+    <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email">
+    </div>
+
+    <div class="form-group">
+        <label for="regarding">Regarding Jazz</label>
+        <input type="text" id="regarding" name="regarding" class="form-control" placeholder="Enter your subject">
+    </div>
+
+    <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" class="form-control" placeholder="Your message here"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Send</button>
+</form>
+
 <br>
 <br>
 <br>
