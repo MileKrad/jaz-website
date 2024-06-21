@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: local('Poppins-Regular');
+}
+
+body {
+    font-family: 'Poppins-Regular', sans-serif;
+}
+
+#event-section {
+    background: url('Group.png');
+    height: 60vh;
+    position: relative;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 0;
+}
+
+#event-section .overlay {
+    background-color: rgba(234, 234, 234, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#description-section {
+    font-size: 1rem;
+}
+
+#more-info-section .info-box {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100px;  /* replace with the width of Group (1).png */
+    height: 100px; /* replace with the height of Group (1).png */
+    object-fit: cover;
+}
+
+#more-info-section .info-box img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#more-info-section .info-box p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+#more-info-section .info-box a {
+    font-size: 1.5rem;
+}
+
+a{
+text-decoration: none;
+}
+.btn-group{
+position: absolute;
+top: 10%;
+left: 80%;
+transform: translate(-50%, -50%);
+background-color: #fff;
+color: #fff;
+padding: 10px 10px;
+font-size: 20px;
+text-align: center;
+border: none;
+}
+
+.col-6 {
+height: 200px;
+}
+
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#zjtimg{
+height: 150px;
+}
+#zjt{
+background-color: #DF3635;
+height: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: none;
+width: 100%;
+
+}
+
+#induimg{
+width: 340px;
+height: 75px;
+}
+#indu{
+background-color: #F26BFF;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: none;
+width: 100%;
+}
+
+
+border-width: 5px;
+border-right: 0px;
+width: 100%;
+}
+
+#jazimg{
+width: 157px;
+height: 75px;
+}
+
+#jaz{
+background-color: #8FDAEE;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: none;
+width: 100%;
+
+}
+
+.nachsterevent{
+display: flex;
+justify-content: center;
+align-items: center;
+align-self: center;
+background-image: url(banner\ background.jpg);
+}
+
+.grey{
+background-color: rgba(232, 232, 217, 0.75);
+width: 40%;
+display: grid;
+align-self: center;
+align-items: center;
+justify-content: center;
+text-align: center;
+border-radius: 30px;
+}
+
+.btn-primary{
+background-color: #010101;
+border: none;
+}
+
+.taten{
+text-align: center;
+display: grid;
+width: 70%;
+}
+
+h2{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+h3 {
+ text-align: center;
+ padding: 0 15px;
+}
+
+#left {
+    text-align: left;
+    }
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 15px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 20px; 
+    padding: 0 15px;
+}
+
+h4 {
+   
+    padding: 0 15px;
+}
+
+h1 {
+    text-align: center;
+    padding: 0 15px;
+}
+
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-form label, #contact-form input, #contact-form textarea, #contact-form button {
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+}  
+
+#contact-form button {
+    padding: 5px 10px;
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.footer {
+    width: 100%;
+    background-color: #F9F9F9;
+    padding: 20px;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.footer-top img {
+    max-height: 50px;
+    height: auto;
+    width: auto;
+}
+.footer-middle {
+    margin-bottom: 10px;
+    color: grey;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.footer-bottom a {
+    color: black;
+}
