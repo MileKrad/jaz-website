@@ -82,10 +82,9 @@ height: 200px;
 display: flex;
 align-items: center;
 justify-content: center;
-border: solid;
-border-color: white;
-border-width: 5px;
-border-left: 0px;
+border: none;
+width: 100%;
+
 }
 
 #induimg{
@@ -98,10 +97,14 @@ height: 100px;
 display: flex;
 align-items: center;
 justify-content: center;
-border: solid;
-border-color: white;
+border: none;
+width: 100%;
+}
+
+
 border-width: 5px;
 border-right: 0px;
+width: 100%;
 }
 
 #jazimg{
@@ -115,11 +118,9 @@ height: 100px;
 display: flex;
 align-items: center;
 justify-content: center;
-border: solid;
-border-color: white;
-border-width: 5px;
-border-top: 2.5px;
-border-right: 0px;
+border: none;
+width: 100%;
+
 }
 
 .nachsterevent{
