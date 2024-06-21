@@ -210,15 +210,20 @@ h1 {
 }
 
 #contact-form label, #contact-form input, #contact-form textarea, #contact-form button {
-    width: 100%;
+    width: 95%;
     margin-bottom: 10px;
-    border-radius: 10px; 
+    padding: 5px 10px;
+    border-radius: 10px;
+
 }  
 
 #contact-form button {
-    padding: 10px;
-    border: black;
-    cursor: finger;
+    padding: 5px 10px;
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
 }
 .footer {
     width: 100%;
