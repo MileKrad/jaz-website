@@ -102,6 +102,14 @@ width: 100%;
 }
 
 
+
+header {
+    max-width: 1200px; /* Adjust this value to your preference */
+    margin: 0 auto; /* Centers the header */
+}
+
+
+
 border-width: 5px;
 border-right: 0px;
 width: 100%;
